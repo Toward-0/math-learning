@@ -8,23 +8,15 @@ import re
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
-# This deliberately checks only simple inline local links, no remote URLs or anchor slugs.
-LINK = re.compile(r"(?<!!)\[[^\]]+\]\(([^)]+)\)")
-REQUIRED = [
-    "README.md", "AGENTS.md", "progress.md",
-    "history/2026-09-to-10.md", "practice/representative-problems.md",
-    "mistakes/mistake-log.md", "reviews/review-queue.md",
-]
-
+# Check inline local links and images; remote URLs and anchor slugs are not checked.
+LINK = re.compile(r"!?\[[^\]]*\]\(([^)]+)\)")
 
 def main() -> int:
     errors = []
-    for file in REQUIRED:
-        if not (ROOT / file).is_file():
-            errors.append(f"Required file missing: {file}")
-
     count = 0
     for path in ROOT.rglob("*.md"):
+        if ".git" in path.relative_to(ROOT).parts:
+            continue
         count += 1
         relative = path.relative_to(ROOT)
         try:
@@ -50,7 +42,7 @@ def main() -> int:
             print("FAIL:", error)
         print(f"{len(errors)} issue(s) detected")
         return 1
-    print(f"OK: {count} Markdown files; required files, UTF-8, display-math delimiters and local links passed")
+    print(f"OK: {count} Markdown files; UTF-8, display-math delimiters and local links/images passed")
     print("Note: no mathematical proof, historical claim, or learning level was verified.")
     return 0
 

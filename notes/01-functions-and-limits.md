@@ -2,7 +2,7 @@
 
 [返回首页](../README.md) · [当前进度](../progress.md) · [代表题](../practice/representative-problems.md)
 
-> 类型：整理者讲义 `[C]`。
+> 类型：Codex／整理者补充的参考讲解 `[C]`，不代表本人原答或已完成的复测。
 
 ## 内容
 

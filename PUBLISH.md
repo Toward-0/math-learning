@@ -2,7 +2,7 @@
 
 [返回首页](README.md)
 
-这些步骤仅在第一次发布时需要。**本压缩包是已构建好的本地仓库文件，不代表已经远程创建 GitHub 仓库。**
+仓库已经发布。日常学习后的同步请按 [README 中的流程](README.md#每次学习后怎样同步) 和 [课后交接模板](templates/session-handoff.md) 操作。下文保留首次建库的历史参考，仅用于重新建库时查阅。
 
 ## 1. 在 GitHub 建立空仓库
 
@@ -48,7 +48,7 @@ git push -u origin main
 ## 4. 发布后验证
 
 - 打开 `https://github.com/Toward-0/math-learning`，确认主页 README 正确显示中文与数学公式。
-- 点击 `notes/`，确认六篇笔记和 `progress.md` 都存在。
+- 点击 `notes/`，确认知识笔记和 `progress.md` 都存在。
 - 点击 GitHub 的 **Actions** 页面，等待 `Validate math learning repository` 工作流完成；它仅检查文件和链接，并不检验数学结论。
 
 ## 5. 以后怎样维护

@@ -10,7 +10,7 @@
 | --- | --- |
 | 学到哪里、哪些结论已有证据 | [当前状态](progress.md) |
 | 当前题与后续选择 | [下一次学习](reviews/review-queue.md#当前任务) |
-| 原题、原答、原稿及订正 | [代表题](practice/representative-problems.md) |
+| 原题、原答、原稿及订正 | [代表题](practice/representative-problems.md) · [早期手写原稿](practice/handwritten-2026-10-14.md) |
 | 反复出现的错误及修正 | [错因台账](mistakes/mistake-log.md) |
 | 阶段历史 | [学习回顾](history/2026-09-to-10.md) |
 
@@ -34,4 +34,4 @@ Python 3.10 或以上，无第三方依赖：
 python scripts/check_repo.py
 ```
 
-检查 UTF-8、本地链接、图片路径、Markdown 章节锚点及独立公式分隔符；不验证数学推导或学习程度。手写原稿保存在 `assets/original-work/`，数学公式使用 `$...$` 和 `$$...$$`。
+检查 UTF-8、本地链接、图片路径、Markdown 章节锚点及独立公式分隔符；不验证数学推导或学习程度。原始图片按接收批次保存在 `assets/handwritten/` 与 `assets/original-work/`，数学公式使用 `$...$` 和 `$$...$$`。

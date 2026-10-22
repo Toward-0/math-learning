@@ -15,7 +15,7 @@
 | --- | --- |
 | [progress.md](progress.md) | 当前章节、能力证据和待答入口 |
 | [reviews/review-queue.md](reviews/review-queue.md) | 当前任务及按表现选择的下一动作 |
-| practice/ 与 assets/original-work/ | 完整题干、原答、原稿与必要核查 |
+| practice/ 与 assets/ | 完整题干、原答、原稿与必要核查 |
 | mistakes/mistake-log.md | 错因、订正和真实复测状态 |
 | notes/ | 定义、条件、讲解与按需自检 |
 | history/ | 历史节点 |

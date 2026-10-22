@@ -36,6 +36,8 @@
 
 ## 作答依据
 
+早期证据补充见[2026-10-14 接收的手写原稿](practice/handwritten-2026-10-14.md)。与同题或片段的对应关系在代表题中维护；仅补齐证据，不改变上表的状态基准或独立复测结论。
+
 2026-10-17 补充确认 `[B]`：用户回顾泰勒学习时曾看不懂 $\frac{d^n}{dx^n}(x^n)=n!$ 的符号，现在已理解 $\frac{d^n}{dx^n}$ 表示连续求导 n 次，并非普通除法或乘方。关于求导符号上下阶数一致、求导阶数与函数次数的区别，见 [高阶求导符号说明](notes/07-taylor-and-asymptotic-notation.md#怎样读懂高阶求导符号)。此处记录理解进展，不新增独立复测成绩。
 
 原稿、转录与核查见 [P16、P17 及 P10 补充](practice/representative-problems.md#original-work)；概念回答概要见 [P13、P14](practice/representative-problems.md#2026-10-17-补充证据-b)。各条目的实际作答日期、提示情况和来源等级在练习记录中保存。

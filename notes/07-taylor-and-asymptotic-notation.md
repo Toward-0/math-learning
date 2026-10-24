@@ -2,7 +2,7 @@
 
 [返回首页](../README.md) · [当前进度](../progress.md) · [原稿证据](../practice/representative-problems.md#original-work)
 
-> 类型：整理者讲义 [C]。多项式构造对应已有学习内容；余项及小 o / 大 O 是当前在学部分的参考说明。此文不代表新增独立作答或复测通过。
+> 类型：整理者讲义 [C]；个人状态统一见[学习状态](../progress.md)。
 
 ## 用导数值确定多项式
 
@@ -144,4 +144,3 @@ $$
 2. 分清多项式构造与余项结论的适用条件。
 3. 判断 o/O 时先写趋近条件与比较对象，再看比值。
 4. 等价关系不能直接改写为函数恒等式；相关原稿错误见 [P10 及订正](../practice/representative-problems.md#p10-original)。
-5. [P15](../practice/representative-problems.md#p15-最后一道小-o-判断题-t) 题干已补齐、尚未提交答案，下一次由用户作答。

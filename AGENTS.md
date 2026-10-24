@@ -7,7 +7,7 @@
 | [progress.md](progress.md) | 当前题、能力证据、下一步 |
 | practice/、assets/ | 完整题干、原答、原稿、核查 |
 | [mistakes](mistakes/mistake-log.md) | 错因、订正、复测结果 |
-| notes/ | 定义、条件、必要推导 |
+| notes/ | 定义、条件、推导、例子及适用边界；可按需要展开 |
 | history/ | 历史节点与旧任务 |
 | README.md | 导航 |
 

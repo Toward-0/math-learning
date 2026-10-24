@@ -76,7 +76,27 @@ $$
 
 ## 为什么加减法不能随意替换？
 
-利用等价关系可以在适当的乘除结构中替换因子，但对**发生抵消的加减结构**不能机械替换。
+等价关系控制的是**相对误差**。假设比较函数在所考察的去心邻域内非零，令
+
+$$
+\varepsilon(x)=\frac{\alpha(x)}{\beta(x)}-1\to0,
+\qquad \alpha(x)=\beta(x)(1+\varepsilon(x)).
+$$
+
+这解释了乘除结构中为什么可以替换。例如 $q(x)\ne0$ 且 $\beta(x)/q(x)\to L$（有限），则
+
+$$
+\frac{\alpha(x)}{q(x)}
+=\frac{\beta(x)}{q(x)}(1+\varepsilon(x))\to L.
+$$
+
+减法却可能把主项消掉：
+
+$$
+\alpha(x)-\beta(x)=\beta(x)\varepsilon(x).
+$$
+
+剩下的恰好是替换时忽略的误差，所以不能直接写成0。用[小 o 记号](07-taylor-and-asymptotic-notation.md#小-o-与大-o-的区别)表示，就是 $\alpha\sim\beta\iff\alpha-\beta=o(\beta)$；它描述误差的相对大小，不表示误差恒为零。
 
 例如：
 
@@ -88,16 +108,7 @@ $$
 
 **判断流程：** 先看整体结构 → 判断有无重要抵消 → 说明为何可以替换 → 再计算极限。
 
-## 指数型未定式：`1^∞`
-
-先在附近确认底数为正，再设
-
-$$
-y=[1+u(x)]^{v(x)},\qquad
-\ln y=v(x)\ln(1+u(x)).
-$$
-
-先求 `ln y` 的极限，最后指数还原。这类题是当前重要复习点，见 [M06](../mistakes/mistake-log.md)。
+指数型的取对数步骤统一见[综合极限](06-lhopital-and-composite-limits.md#logarithmic-limit)。
 
 ## 按需自检
 

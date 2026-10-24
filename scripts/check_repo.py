@@ -15,7 +15,7 @@ LINK = re.compile(r"!?\[[^\]]*\]\((<[^>]+>|[^\s)]+)(?:\s+\"[^\"]*\")?\)")
 REQUIRED = [
     "README.md", "AGENTS.md", "progress.md",
     "history/2026-09-to-10.md", "practice/representative-problems.md",
-    "mistakes/mistake-log.md", "reviews/review-queue.md",
+    "mistakes/mistake-log.md",
 ]
 
 

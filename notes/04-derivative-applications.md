@@ -1,6 +1,6 @@
 # 04 · 导数应用：单调性、极值、凹凸性、拐点
 
-[返回首页](../README.md) · [当前进度](../progress.md) · [历史题目](../practice/representative-problems.md)
+[知识目录](README.md) · [学习记录](../progress.md) · [历史题目](../practice/representative-problems.md)
 
 > 类型：整理者讲义 `[C]`。
 

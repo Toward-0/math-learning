@@ -1,8 +1,8 @@
 # 07 · 泰勒多项式、余项与小 o / 大 O
 
-[返回首页](../README.md) · [当前进度](../progress.md) · [原稿证据](../practice/representative-problems.md#original-work)
+[知识目录](README.md) · [学习记录](../progress.md) · [原稿证据](../practice/representative-problems.md#original-work)
 
-> 类型：整理者讲义 [C]；个人状态统一见[学习状态](../progress.md)。
+> 类型：整理者讲义 [C]；个人状态统一见[学习记录](../progress.md)。
 
 ## 用导数值确定多项式
 

@@ -1,6 +1,6 @@
 # 05 · 罗尔定理与拉格朗日中值定理
 
-[返回首页](../README.md) · [当前进度](../progress.md) · [错题记录](../mistakes/mistake-log.md)
+[知识目录](README.md) · [学习记录](../progress.md) · [错题记录](../mistakes/mistake-log.md)
 
 > 类型：整理者讲义 `[C]`。
 

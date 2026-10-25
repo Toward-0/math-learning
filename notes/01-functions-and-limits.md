@@ -1,6 +1,6 @@
 # 01 · 函数、基础极限与左右极限
 
-[返回首页](../README.md) · [当前进度](../progress.md) · [代表题](../practice/representative-problems.md)
+[知识目录](README.md) · [学习记录](../progress.md) · [代表题](../practice/representative-problems.md)
 
 > 类型：整理者讲义 `[C]`。不是学习者逐字笔记；以真实答题能力为判断依据。
 

@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 # Reference links and raw HTML image src attributes are not parsed.
 LINK = re.compile(r"!?\[[^\]]*\]\((<[^>]+>|[^\s)]+)(?:\s+\"[^\"]*\")?\)")
 REQUIRED = [
-    "README.md", "AGENTS.md", "progress.md",
+    "README.md", "AGENTS.md", "current.md", "progress.md", "notes/README.md",
     "history/2026-09-to-10.md", "practice/representative-problems.md",
     "mistakes/mistake-log.md",
 ]

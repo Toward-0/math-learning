@@ -1,18 +1,23 @@
-# 数学学习状态
+# 数学：学习记录
 
-基准：2026-10-17。自述掌握与独立复测分开记录；尚无新增独立复测成绩。
+[当前任务](current.md) · [知识目录](notes/README.md) · [错因](mistakes/mistake-log.md)
 
-<a id="当前任务"></a>
+## 题目与思考
 
-## 当前任务：P15 小 o 判断题
+| 主题 | 原答、过程与订正 |
+| --- | --- |
+| 极限与等价 | [P01 因式分解](practice/representative-problems.md#p01) · [P02 重要极限](practice/representative-problems.md#p02) · [P11](practice/representative-problems.md#p11) / [P12 左右极限](practice/representative-problems.md#p12) |
+| 导数与应用 | [P03 商法则](practice/representative-problems.md#p03) · [P04 极值](practice/representative-problems.md#p04) · [P05 拐点](practice/representative-problems.md#p05) · [P06 中值定理](practice/representative-problems.md#p06) |
+| 综合极限 | [P07 指数型](practice/representative-problems.md#p07) · [P08 高阶差值](practice/representative-problems.md#p08) · [P09 对数型](practice/representative-problems.md#p09) · [P10 幂指型](practice/representative-problems.md#p10-original) |
+| 泰勒与余项 | [P13 高阶导数](practice/representative-problems.md#p13) · [P14 相等与恒等](practice/representative-problems.md#p14) · [P15 小 o（未答）](practice/representative-problems.md#p15-最后一道小-o-判断题-t) · [P16 余弦系数](practice/representative-problems.md#p16) · [P17 指数近似](practice/representative-problems.md#p17) |
 
-[完整题干](practice/representative-problems.md#p15-最后一道小-o-判断题-t) · **未答 [T]**
+[完整题目档案](practice/representative-problems.md) · [早期手写原稿](practice/handwritten-2026-10-14.md) · [学习时间线与旧规划](history/2026-09-to-10.md)
 
-先写选择、理由和卡点；按需补定义，再尝试。完成后选择一道变式，或继续泰勒余项与近似误差。
+原答、可见思考与纠错在题目档案中保存；仅有结果概要的记录不补造完整推理。
 
-旧错因只选与当前障碍相关的一项；结果更新到[错因台账](mistakes/mistake-log.md)。旧任务见[历史](history/2026-09-to-10.md#旧复习建议)。
+## 阶段小结：2026-10-17
 
-## 能力证据
+自述掌握与独立复测分开记录；截至本次记录，尚无新增独立复测成绩。
 
 | 主题 | 当前记录 | 待检验处 |
 | --- | --- | --- |
@@ -30,5 +35,3 @@
 2026-10-17 本人确认 [B]：高阶求导记号已从“看不懂”到理解为连续求导 n 次，而非除法或乘方。[符号说明](notes/07-taylor-and-asymptotic-notation.md#怎样读懂高阶求导符号)
 
 积分未确认系统学习；多元、线代、概率、离散不列入已学。
-
-[题目与原答](practice/representative-problems.md) · [早期手写证据](practice/handwritten-2026-10-14.md) · [记录规则](AGENTS.md)

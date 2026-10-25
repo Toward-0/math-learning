@@ -10,8 +10,6 @@
 
 [极限](notes/01-functions-and-limits.md) → [等价无穷小](notes/02-equivalent-infinitesimals.md) → [导数](notes/03-derivatives.md) → [导数应用](notes/04-derivative-applications.md) / [中值定理](notes/05-mean-value-theorems.md) → [洛必达](notes/06-lhopital-and-composite-limits.md) → [泰勒与余项](notes/07-taylor-and-asymptotic-notation.md)
 
-按障碍查阅，无需逐章重学。
-
 ## 维护
 
 [规则](AGENTS.md) · Python 3.10+，无第三方依赖：

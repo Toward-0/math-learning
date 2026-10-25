@@ -1,6 +1,6 @@
 # 2026-10-14 接收的手写原稿
 
-[返回代表题](representative-problems.md) · [当前状态](../progress.md)
+[返回代表题](representative-problems.md) · [学习记录](../progress.md)
 
 来源：[旧 PR #2](https://github.com/Toward-0/math-learning/pull/2) 保存的《数学实际作答.docx》提取记录。2026-10-14 是原记录中的接收日，26 张 JPEG 按原顺序、原字节收录；图号不是题号或作答日期。数学作答及原始错误由本人完成，以下摘要沿用原稿整理，另行核查标为 [C]。
 

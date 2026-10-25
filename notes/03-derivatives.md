@@ -1,6 +1,6 @@
 # 03 · 导数定义、基本法则与高阶导数
 
-[返回首页](../README.md) · [当前进度](../progress.md) · [代表题](../practice/representative-problems.md)
+[知识目录](README.md) · [学习记录](../progress.md) · [代表题](../practice/representative-problems.md)
 
 > 类型：整理者讲义 `[C]`。
 

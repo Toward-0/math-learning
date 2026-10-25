@@ -1,8 +1,8 @@
 # 06 · 洛必达法则、对数变形与综合极限
 
-[返回首页](../README.md) · [当前进度](../progress.md) · [错题 M06](../mistakes/mistake-log.md)
+[知识目录](README.md) · [学习记录](../progress.md) · [错题 M06](../mistakes/mistake-log.md)
 
-> 类型：整理者讲义 [C]。个人状态统一见[学习状态](../progress.md)。
+> 类型：整理者讲义 [C]。个人状态统一见[学习记录](../progress.md)。
 
 ## 一、什么时候考虑洛必达？
 

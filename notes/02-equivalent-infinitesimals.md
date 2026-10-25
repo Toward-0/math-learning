@@ -1,6 +1,6 @@
 # 02 · 重要极限与等价无穷小
 
-[返回首页](../README.md) · [当前进度](../progress.md) · [错题记录](../mistakes/mistake-log.md)
+[知识目录](README.md) · [学习记录](../progress.md) · [错题记录](../mistakes/mistake-log.md)
 
 > 类型：整理者讲义 `[C]`。强调适用条件，而不是只背结论。
 

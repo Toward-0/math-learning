@@ -12,7 +12,7 @@
 
 ## 维护
 
-[规则](AGENTS.md) · Python 3.10+，无第三方依赖：
+[规则](AGENTS.md) · [记录提示词](PROMPTS.md) · Python 3.10+，无第三方依赖：
 
 ~~~bash
 python scripts/check_repo.py

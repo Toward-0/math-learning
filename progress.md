@@ -2,14 +2,16 @@
 
 [当前任务](current.md) · [知识目录](notes/README.md) · [错因](mistakes/mistake-log.md)
 
+这里按主题查题目与证据；当天接着学什么，以[当前任务](current.md)为准。原稿 [A]、自述或有据概要 [B]、参考讲解 [C] 分开记录；[T] 仅表示待答。来源标签不代表提示程度或独立掌握。
+
 ## 题目与思考
 
 | 主题 | 原答、过程与订正 |
 | --- | --- |
-| 极限与等价 | [P01 因式分解](practice/representative-problems.md#p01) · [P02 重要极限](practice/representative-problems.md#p02) · [P11](practice/representative-problems.md#p11) / [P12 左右极限](practice/representative-problems.md#p12) |
+| 极限与等价 | [P01 因式分解](practice/representative-problems.md#p01) · [P02 重要极限](practice/representative-problems.md#p02) · [P11 余弦等价式](practice/representative-problems.md#p11) · [P12 左右极限](practice/representative-problems.md#p12) |
 | 导数与应用 | [P03 商法则](practice/representative-problems.md#p03) · [P04 极值](practice/representative-problems.md#p04) · [P05 拐点](practice/representative-problems.md#p05) · [P06 中值定理](practice/representative-problems.md#p06) |
 | 综合极限 | [P07 指数型](practice/representative-problems.md#p07) · [P08 高阶差值](practice/representative-problems.md#p08) · [P09 对数型](practice/representative-problems.md#p09) · [P10 幂指型](practice/representative-problems.md#p10-original) |
-| 泰勒与余项 | [P13 高阶导数](practice/representative-problems.md#p13) · [P14 相等与恒等](practice/representative-problems.md#p14) · [P15 小 o（未答）](practice/representative-problems.md#p15-最后一道小-o-判断题-t) · [P16 余弦系数](practice/representative-problems.md#p16) · [P17 指数近似](practice/representative-problems.md#p17) |
+| 泰勒与余项 | [P13 高阶导数](practice/representative-problems.md#p13) · [P14 相等与恒等](practice/representative-problems.md#p14) · [P15 小 o（未答）](practice/representative-problems.md#p15) · [P16 余弦系数](practice/representative-problems.md#p16) · [P17 指数近似](practice/representative-problems.md#p17) |
 
 [完整题目档案](practice/representative-problems.md) · [早期手写原稿](practice/handwritten-2026-10-14.md) · [学习时间线与旧规划](history/2026-09-to-10.md)
 

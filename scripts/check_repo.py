@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Check simple inline Markdown links/images and anchors, not mathematics."""
+"""Check repository Markdown without dependencies; not a full Markdown parser.
+
+Supports simple inline links/images, ATX headings and explicit anchor IDs.
+Reference links, raw HTML image sources and external URLs are not checked.
+"""
 from __future__ import annotations
 
 from pathlib import Path
@@ -19,21 +23,35 @@ REQUIRED = [
 ]
 
 
-def without_fences(data: str) -> str:
+def without_fences(data: str) -> tuple[str, int]:
+    """Return prose and the opening line of an unclosed code fence (0 if closed)."""
     lines = []
     fence = ""
-    for line in data.splitlines():
-        match = re.match(r"^\s{0,3}(\x60{3,}|~{3,})", line)
+    opening_line = 0
+    for number, line in enumerate(data.splitlines(), 1):
+        match = re.match(r"^ {0,3}(\x60{3,}|~{3,})(.*)$", line)
         if match:
-            marker = match[1]
+            marker, rest = match.groups()
             if not fence:
+                # Backtick info strings cannot themselves contain backticks.
+                if marker[0] == "`" and "`" in rest:
+                    lines.append(line)
+                    continue
                 fence = marker
-            elif marker[0] == fence[0] and len(marker) >= len(fence):
+                opening_line = number
+            elif (marker[0] == fence[0] and len(marker) >= len(fence)
+                  and not rest.strip()):
                 fence = ""
+                opening_line = 0
             continue
         if not fence:
             lines.append(line)
-    return "\n".join(lines)
+    return "\n".join(lines), opening_line
+
+
+def without_inline_code(data: str) -> str:
+    # Match equal-length backtick delimiters; unmatched backticks remain prose.
+    return re.sub(r"(?<!`)(`+)(?!`)([\s\S]*?)(?<!`)\1(?!`)", "", data)
 
 
 def anchors(data: str) -> set[str]:
@@ -61,16 +79,20 @@ def check(root: Path, required=REQUIRED) -> tuple[list[str], int]:
             errors.append(f"Required file missing: {file}")
 
     documents = {}
-    for path in root.rglob("*.md"):
+    for path in sorted(root.rglob("*.md")):
         if ".git" in path.relative_to(root).parts:
             continue
         try:
-            documents[path] = without_fences(path.read_text(encoding="utf-8"))
+            prose, opening_line = without_fences(path.read_text(encoding="utf-8"))
+            documents[path] = prose
+            if opening_line:
+                errors.append(f"{path.relative_to(root)}:{opening_line}: unclosed code fence")
         except UnicodeError as exc:
             errors.append(f"{path.relative_to(root)}: not valid UTF-8 ({exc})")
     targets = {path: anchors(data) for path, data in documents.items()}
     for path, data in documents.items():
         relative = path.relative_to(root)
+        data = without_inline_code(data)
         if data.count("$$") % 2:
             errors.append(f"{relative}: odd number of $$ display-math delimiters")
         for raw in LINK.findall(data):
@@ -98,8 +120,8 @@ def main() -> int:
             print("FAIL:", error)
         print(f"{len(errors)} issue(s) detected")
         return 1
-    print(f"OK: {count} Markdown files; required files, UTF-8, display math, local links/images and Markdown anchors passed")
-    print("Note: no mathematical proof, historical claim, or learning level was verified.")
+    print(f"OK: {count} Markdown files; required files, UTF-8, code fences, display math, local links/images and Markdown anchors passed")
+    print("Note: external URLs, content correctness and learning level are not verified.")
     return 0
 
 

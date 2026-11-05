@@ -8,7 +8,7 @@
 
 ## P15：小 o 判断
 
-[完整题干](practice/representative-problems.md#p15-最后一道小-o-判断题-t) · **未答 [T]**。
+[完整题干](practice/representative-problems.md#p15) · **未答 [T]**。
 
 先写选择、理由和卡点；按需补定义，再尝试。旧错因只选与当前障碍相关的一项。
 
